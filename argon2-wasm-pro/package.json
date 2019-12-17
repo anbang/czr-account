@@ -1,0 +1,58 @@
+{
+  "_from": "argon2-wasm-pro@^1.1.0",
+  "_id": "argon2-wasm-pro@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ApZAKEgbWQILckY+IdjrETB0oTC8L9YHT3JVQhdun77tilExkXNyM/T/qbkvX+Uv68+IQmVwewQwg6yJnSwVxQ==",
+  "_location": "/argon2-wasm-pro",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "argon2-wasm-pro@^1.1.0",
+    "name": "argon2-wasm-pro",
+    "escapedName": "argon2-wasm-pro",
+    "rawSpec": "^1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/argon2-wasm-pro/-/argon2-wasm-pro-1.1.0.tgz",
+  "_shasum": "6416a87265bc97317ff0c3775c233b2a86add76b",
+  "_spec": "argon2-wasm-pro@^1.1.0",
+  "_where": "/Users/broszhu/Documents/canonchain_dev/czr-account",
+  "author": {
+    "name": "Antelle"
+  },
+  "bugs": {
+    "url": "https://github.com/canonchain/argon2-wasm/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Argon2 library compiled for browser runtime",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "eslint": "^6.3.0",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/canonchain/argon2-wasm#readme",
+  "license": "MIT",
+  "main": "lib/argon2.js",
+  "name": "argon2-wasm-pro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canonchain/argon2-wasm.git"
+  },
+  "scripts": {
+    "start": "webpack",
+    "test": "mocha"
+  },
+  "version": "1.1.0"
+}

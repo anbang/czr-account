@@ -1,0 +1,27 @@
+{
+  "name": "czr-account",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anbang/czr-account.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anbang/czr-account/issues"
+  },
+  "homepage": "https://github.com/anbang/czr-account#readme",
+  "dependencies": {
+    "browser-crypto": "^1.0.1",
+    "bs58check": "^2.1.2",
+    "buffer": "^5.4.3",
+    "ed25519-wasm-pro": "^1.1.1",
+    "hash.js": "^1.1.7"
+  }
+}
