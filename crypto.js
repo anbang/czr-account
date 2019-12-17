@@ -1,4 +1,5 @@
 var cryptoBrowser = require('browser-crypto')  // note: the trailing slash is important!
+var Buffer = require('buffer/').Buffer  // note: the trailing slash is important!
 // 强随机开始
 var create = (function () {
     function F() { };
