@@ -1,6 +1,6 @@
 var Buffer = require('buffer/').Buffer  // note: the trailing slash is important!
 var argon2 = require('./argon2-wasm-pro/lib/argon2')  // note: the trailing slash is important!
-var ed25519 = require('ed25519-wasm-pro')  // note: the trailing slash is important!
+var ed25519 = require('./ed25519-wasm-pro/src/index')  // note: the trailing slash is important!
 var crypto = require('./crypto')  // note: the trailing slash is important!
 const bs58check = require("./bs58check");
 
