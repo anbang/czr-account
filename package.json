@@ -19,9 +19,7 @@
   "homepage": "https://github.com/anbang/czr-account#readme",
   "dependencies": {
     "browser-crypto": "^1.0.1",
-    "bs58check": "^2.1.2",
     "buffer": "^5.4.3",
-    "ed25519-wasm-pro": "^1.1.1",
     "hash.js": "^1.1.7"
   }
 }
