@@ -1,17 +1,9 @@
 (function () {
-    let random_bytes;
     var crypto = require('../../crypto');  // note: the trailing slash is important!
     // console.log("烙铁，没有毛病啊")
-    if (typeof crypto !== 'undefined') {
-        random_bytes = function (size) {
-            let array;
-            array = new Uint8Array(size);
-            crypto.getRandomValues(array);
-            return array;
-        };
-    } else {
-        random_bytes = require('crypto').randomBytes;
-    }
+    let random_bytes = function (size) {
+        return crypto.randomBytes(size)
+    };
     function Wrapper(lib) {
         let allocate, free;
         lib = lib();
