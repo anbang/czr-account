@@ -24,6 +24,7 @@ ENVIRONMENT_HAS_NODE = typeof process === "object" && typeof process.versions ==
 ENVIRONMENT_IS_NODE = ENVIRONMENT_HAS_NODE && !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_WORKER;
 ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIRONMENT_IS_WORKER;
 var scriptDirectory = "";
+var Buffer = require('buffer/').Buffer  // note: the trailing slash is important!
 
 
 if (ENVIRONMENT_IS_NODE) {
@@ -456,6 +457,7 @@ function createWasm(env) {
 
     function instantiateArrayBuffer(receiver) {
         return getBinaryPromise().then(function (binary) {
+            //TODO 这里是根据CZR写死的
             var buf = new Buffer(31580);
             for (var i = 0; i < buf.length; ++i) {
                 buf[i] = binary[i];
